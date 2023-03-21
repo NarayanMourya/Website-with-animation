@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container > img {
+  width: 100% !important;
+  height: 80vh !important;
+  /* background-image: url("https://images.unsplash.com/photo-1679240339099-1759c6576e96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1914&q=80"); */
+}
+#about {
+  background-color: rgba(184, 212, 237, 0.597);
+}
+.para {
+    font-size: 20px;
+}
+#section {
+  background-color: cornsilk;
+}
+#btn1 {
+  color: #100303;
+  border: 2px solid rgb(21, 4, 4);
+  font-size: 20px;
+  font-weight: 600;
+}
+#btn1:hover{
+    background-color: rgba(137, 43, 226, 0.6);
+    color: aliceblue;
+    box-shadow: rgba(0,0,0,0.40) 0px 5px 20px; 
+    
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.40) 0px 5px 20px;    
+}
+.list-group-item:hover{
+    background-color:rgba(232, 149, 41, 0.567) ;
+
+}
+.d-flex :hover{
+    color:rgba(57, 80, 230, 0.869) ;
+    box-shadow: rgba(0,0,0,0.40) 0px 5px 20px; 
+
+
+}
+#paratwo{
+    font-size:20px ;
+    background-color: antiquewhite;
+    color: rgb(19, 19, 32);
+}
+.bg-services{
+    background-color:bisque;
+}
+@media only screen and(max-width:600px) {
+  .container > img {
+    height: 70vh;
+  }
+}
